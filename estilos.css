@@ -1,0 +1,57 @@
+body{
+    background: rgb(250, 212, 250);
+    font:normal 13pt arial;
+    text-align: center;
+
+  }
+  #res2{
+ 
+    background: rgba(248, 248, 248, 0.507);
+    font:normal 13pt arial;
+    text-align: center;    
+    
+    
+  }
+  #res{
+ 
+    background: rgba(248, 248, 248, 0.507);
+    font:normal 13pt arial;
+    text-align: center;    
+    
+  }
+        
+  input[type="radio"]{
+    padding-left:10px;
+    width: 20px;
+   
+    font-size: 5px;
+    margin: 0%;
+    width: 5 px;
+    text-align: right;
+    white-space: 10%; 
+
+ }
+header{
+    color: white;
+    text-align: center;
+    
+          }
+          
+          section{
+            background: white;
+            border-radius: 10px;
+            padding: 15px;
+            width: 500px;
+          background-color: rgb(75, 133, 94);
+            margin:auto;
+            box-shadow: 3px 3px 10px rgba(rgb(0, 0, 0), green, blue, alpha);
+          }
+          footer{
+    font:normal 13pt arial;
+    text-align: center;    
+            color: rgb(0, 0, 0);
+            box-shadow: 3px 3px 10px rgba(rgb(0, 0, 0), green, blue, alpha);
+
+            text-align: center;
+            font-style: italic;
+          }

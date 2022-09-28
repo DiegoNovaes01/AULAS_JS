@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apenas Clique No Botão</title>
+    <link rel="stylesheet" href="estilos.css"
+</head>
+
+
+<body>
+    <section>
+        <input type="button" value="resultado" onclick="result()">
+        <input type="text" name="oi" id="oi">
+       
+        <div id="res"></div>      
+        <script>
+        
+            function result(){
+        let teste = window.document.querySelector('input#oi')
+               var tex = String(teste.value)
+     
+       
+
+    
+       res.innerHTML =  (`Ok Nome bonito,Espere um segundo... , ${tex} `)
+      
+    }
+        </script>
+    </section>
+
+</body>
+
+<footer>
+    <h1></h1>
+    
+    </footer>
+
+</html>

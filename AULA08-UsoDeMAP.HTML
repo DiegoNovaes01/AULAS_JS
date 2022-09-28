@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USO DO MAP</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<h1>USO DO MAP</h1>
+
+<body>
+    <section>
+        <div id="res">AQUI ESTA O MAP</div>
+<h1>ola</h1>
+<button onclick="ac()">Clique aqui</button>
+
+<script>
+      //let res1 = document.getElementById('res1')
+
+    let users = [
+  {primeiroNome : "Susan",  ultimoNome: "Steward"}, 
+  {primeiroNome : "Daniel",  ultimoNome: "Longbottom"}, 
+  {primeiroNome : "Jacob",  ultimoNome: "Black"}
+];
+ 
+let userFullnames = users.map(function(element){
+    return `${element.primeiroNome} ${element.ultimoNome}`;
+})
+
+// ["Susan Steward", "Daniel Longbottom", "Jacob Black"]
+      let alunos = ['2', '3', '4', '5'];
+      var series = ['Game of Thrones', 'Friends', 'Vikings'];
+      
+
+let mapeado2 = alunos.map(function(element){
+    return element *2;
+    
+})
+
+function ac(){
+
+
+alert("Olá, " + alunos[2] + " !");
+//res1.innerHTML =  (´${userFullnames}´)
+}
+confirm("ola"+ userFullnames);
+//window.prompt(o, [ola as]);
+document.write ("Olá, " + mapeado2 + " !");
+document.write(`${element}`)
+document.write(`${mapeado2}`)
+//res1.innerHTML (`${aluno[1]}`)
+
+//res1.innerHTML =  (´${userFullnames}´)
+
+</script>
+<div id="res1">AQUI ESTA RES1</div>
+
+    </section>
+    
+</body>
+</html>
