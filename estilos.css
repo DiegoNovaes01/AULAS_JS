@@ -1,16 +1,33 @@
 body{
-    background: rgb(250, 212, 250);
+    background: rgb(190, 61, 190);
     font:normal 13pt arial;
     text-align: center;
 
   }
   #res2{
- 
-    background: rgba(248, 248, 248, 0.507);
+     display: flex;
+    background: rgba(83, 12, 12, 0.932);
     font:normal 13pt arial;
     text-align: center;    
-    
-    
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    padding: 15px;
+    border-radius: 10px;
+    margin:auto;
+
+
+
+  }
+  #res2 > div{
+    background-color: rgb(0, 0, 0);
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 500px;
+
+
   }
   #res{
  
@@ -29,6 +46,18 @@ body{
     width: 5 px;
     text-align: right;
     white-space: 10%; 
+  }
+    input[type="button"]{
+      padding-left:10px;
+      padding-right:10px;
+      width: 0,5%;
+      height: 0,5%;
+       font-size: 100%;
+       margin: 0,1%;
+       justify-content: center;
+     align-items: center;    
+       text-align: center;
+   
 
  }
 header{
@@ -45,6 +74,8 @@ header{
           background-color: rgb(75, 133, 94);
             margin:auto;
             box-shadow: 3px 3px 10px rgba(rgb(0, 0, 0), green, blue, alpha);
+           
+
           }
           footer{
     font:normal 13pt arial;

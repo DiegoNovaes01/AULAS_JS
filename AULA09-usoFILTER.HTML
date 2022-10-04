@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>USO DO MAP > FILTER</header>
+    <h1>Como usar o FILTER</h1>
+    <div id="res2">teste de stilo</div>
+    <input type="button" value="CLIQUE EM MIM" onclick="ac()">
+    
+    <script>
+       let nomes = [{nome: "diego", sobrenome: "santos" }, 
+       {nome: "joao", sobrenome: "novaes"}]
+     /*   let users = [{primeiroNome : "Susam",  ultimoNome: "Steward"}, 
+  {primeiroNome : "Daniel",  ultimoNome: "Longbottom"}, 
+  {primeiroNome : "Jacob",  ultimoNome: "Black"}];      */
+  let nometodo = nomes.map(function(element){
+    return `${element.nome} `
+})
+      
+        
+            function ac(){
+                let res2 = document.getElementById('res2')
+                res2.innerHTML = (`${nometodo}`)
+
+        
+        }
+
+    </script>
+</body>
+</html>
